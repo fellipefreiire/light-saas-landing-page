@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { DM_Sans } from 'next/font/google'
+import { DM_Sans as DMSans } from 'next/font/google'
 import './globals.css'
 import clsx from 'clsx'
 
-const dmSans = DM_Sans({ subsets: ['latin'] })
+const dmSans = DMSans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Light Saas Landing Page',
