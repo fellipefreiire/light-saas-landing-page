@@ -31,7 +31,7 @@ export function CallToAction() {
             src={starImage.src}
             alt="Star Image"
             width={360}
-            className="absolute -left-[350px] -top-[137px]"
+            className="hidden md:block absolute -left-[350px] -top-[137px]"
             style={{
               translateY,
             }}
@@ -40,7 +40,7 @@ export function CallToAction() {
             src={springImage.src}
             alt="Spring Image"
             width={360}
-            className="absolute -right-[331px] -top-[19px]"
+            className="hidden md:block absolute -right-[331px] -top-[19px]"
             style={{
               translateY,
             }}
